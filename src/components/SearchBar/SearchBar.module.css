@@ -1,0 +1,63 @@
+.header {
+  position: relative;
+  padding-top: 10px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+}
+
+.inputWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  padding-left: 40px;
+}
+
+.iconButton {
+  position: absolute;
+  left: 8px;
+  padding: 4px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.icon {
+  color: #ccc;
+}
+
+.icon:hover {
+  color: #6c63ff;
+}
+
+.button {
+  background-color: #6c63ff;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.button:hover {
+  background-color: #5245cc;
+}
