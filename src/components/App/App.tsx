@@ -9,7 +9,6 @@ import toast, { Toaster } from "react-hot-toast";
 import css from "./App.module.css";
 import { Image } from "./App.types";
 
-// Функція для отримання зображень з API
 async function fetchImages(
   query: string,
   page: number = 1
@@ -93,7 +92,7 @@ function App() {
   const shouldShowLoadMore = () => images.length !== 0 && page < totalPages;
 
   return (
-    <div className={css.app}>
+    <div className={css.container}>
       <SearchBar handleSearch={handleSearch} />
       <Toaster position="top-right" />
       <ImageGallery

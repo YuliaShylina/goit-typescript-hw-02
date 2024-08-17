@@ -3,7 +3,13 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  display: flex;
+
+  padding: 2em;
+  justify-content: center;
+}
+
+.container {
+  justify-content: center;
 }
 
 .logo {
